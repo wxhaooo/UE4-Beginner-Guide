@@ -48,8 +48,11 @@ __`Be sure to read these two documents before writing C++ code in UE4, this will
 > A framework for animation subsystem in ue4
 
 * [UAnimNotify & UAnimNotifyState](http://jollymonsterstudio.com/2018/12/10/unreal-engine-c-fundamentals-uanimnotify-uanimnotifystate/)
+  
+> Unreal中的IK节点
 
-
+* [IK节点详解](https://zhuanlan.zhihu.com/p/41425611)
+> 包含了Unreal常用的two bone IK & FABRIK & Hand IK Retargeting的详解和原理
 
 ## Engine Mechanism
 
