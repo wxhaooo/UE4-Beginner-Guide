@@ -14,10 +14,17 @@
     - [HUD](#hud)
     - [AI](#ai)
   - [Engine Mechanism](#engine-mechanism)
-    - [MultiThreads](#multithreads)
-    - [Delegate](#delegate)
-    - [Serialization](#serialization)
-    - [Reflection](#reflection)
+    - [Extensions to C++](#extensions-to-c)
+      - [Delegate](#delegate)
+        - [Use Delegate](#use-delegate)
+        - [Why use Delegate?](#why-use-delegate)
+        - [Delegate Details](#delegate-details)
+      - [Reflection](#reflection)
+      - [Modules](#modules)
+      - [Coroutine](#coroutine)
+      - [MultiThreads](#multithreads)
+      - [Serialization](#serialization)
+    - [Engine Architecture](#engine-architecture)
   - [Rendering](#rendering)
   - [Project & Courses](#project--courses)
     - [Complete Project](#complete-project)
@@ -93,30 +100,50 @@ wait to add.
 
 ## Engine Mechanism
 
-### MultiThreads
+### Extensions to C++
 
-* [《Exploring in UE4》多线程机制详解[原理分析]](https://zhuanlan.zhihu.com/p/38881269)
+#### Delegate
 
-### Delegate
+##### Use Delegate
 
 * [Delegates in UE4, Raw C++, and BP Exposed](https://unreal.gg-labs.com/wiki-archives/macros-and-data-types/delegates-in-ue4-raw-c++-and-bp-exposed)
-  
 > [The official documents about delegates](https://docs.unrealengine.com/en-US/ProgrammingAndScripting/ProgrammingWithCPP/UnrealArchitecture/Delegates/index.html) are vague and difficult to understand. This article explains the use of delegates very well.
 
-__`C++ don't have event system out of the box, at most you got normal function calls which you know that will be called on specific occasion. The weakness of this set up is fact that you can't detect events in code outside of the object it self, or else called of event sends it also somewhere else, external object can't get call then other object is destroyed for example. Thats why delegates was made which work like variable and other object (or even object less static function) can register it to the event to receive the call when it occurs.` [Ref: Seeking a purpose of Delegates!](https://answers.unrealengine.com/questions/783913/view.html)__
+##### Why use Delegate?
+
+> __`C++ don't have event system out of the box, at most you got normal function calls which you know that will be called on specific occasion. The weakness of this set up is fact that you can't detect events in code outside of the object it self, or else called of event sends it also somewhere else, external object can't get call then other object is destroyed for example. Thats why delegates was made which work like variable and other object (or even object less static function) can register it to the event to receive the call when it occurs.` [Ref: Seeking a purpose of Delegates!](https://answers.unrealengine.com/questions/783913/view.html)__
+
+> C++本身不具有事件响应功能。只能在发生事件时主动调用需要侦听该事件的对象的相应函数。这要求事件发出者（被观察者）拥有观察者的信息以便调用响应事件。但事件发出者拥有观察者逻辑上不合理。所以使用观察者模式来分离。delegate就是观察者模式的一种实现。由被观察者约定观察者响应事件的接口，需要侦听该事件的观察者通过delegate在自己的类中侦听时间。当事件发生时，被观察者广播该事件给所有侦听者。（用法见[Use Delegate](#use-delegate)，原理见下面几个推荐。）
 
 * [什么是“观察者模式”？](https://zhuanlan.zhihu.com/p/158537313)
 > Delegate是观察者模式的一个实现，了解delegate，也有必要看看观察者模式。 
 
-### Serialization
+##### Delegate Details
 
-* [Ue4_序列化浅析](https://blog.csdn.net/mohuak/article/details/83027211)
+* [游戏引擎原理与实践：卷一 基础框架，4.4节]()
+> 这本书的4.4节通过作者自己的引擎讲解了一个类UE4 Delegate的实现，如果直接看UE的源码看不懂可以参考这本书的4.4节。
 
-### Reflection
+* [UE4-深入委托Delegate实现原理](https://zhuanlan.zhihu.com/p/261717182)
+> 对UE4中Delegate的实现进行了一个总结，建议看完上面的简单实现再对照UE的源码来看一看UE4中的实现。
+
+#### Reflection
 
 * [我所理解的 C++ 反射机制](https://blog.csdn.net/K346K346/article/details/51698184)
 > 这篇文章提及的反射机制比较通俗易懂，适合来理解反射
 
+#### Modules
+
+#### Coroutine
+
+#### MultiThreads
+
+* [《Exploring in UE4》多线程机制详解[原理分析]](https://zhuanlan.zhihu.com/p/38881269)
+
+#### Serialization
+
+* [Ue4_序列化浅析](https://blog.csdn.net/mohuak/article/details/83027211)
+
+### Engine Architecture
 
 ## Rendering
 
