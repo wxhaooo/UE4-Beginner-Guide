@@ -91,6 +91,9 @@ __`Be sure to read these two documents before writing C++ code in UE4, this will
 * [IK节点详解](https://zhuanlan.zhihu.com/p/41425611)
 > 包含了Unreal常用的two bone IK & FABRIK & Hand IK Retargeting的详解和原理
 
+* [动画融合](https://blog.uwa4d.com/archives/Study_Unreal4_Animation_2.html)
+> 包含了UE中常用的各种动画融合节点的使用方法，最重要的是有动画蒙太奇（animation montage）的介绍和使用，__最重要的是介绍了Layered Animation与Animation Composite并且区分了两者的不同__。
+
 
 ### HUD
 
@@ -130,6 +133,9 @@ wait to add.
 
 * [我所理解的 C++ 反射机制](https://blog.csdn.net/K346K346/article/details/51698184)
 > 这篇文章提及的反射机制比较通俗易懂，适合来理解反射
+
+* [UE4的对象系统](https://zhuanlan.zhihu.com/p/24319968)
+> 这是一个系列文章，共有十三个小章节。作者详细的剖析了UE4的反射系统，初读起来可能比较困难，可以反复多看几遍。
 
 #### Modules
 
