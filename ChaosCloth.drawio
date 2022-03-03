@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-03T12:48:44.783Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 Edg/98.0.1108.62" etag="nymqzegMcrF5YnX5nErH" version="16.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-03T12:49:04.206Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 Edg/98.0.1108.62" etag="p3lKU1op5RRSMfbCtZw4" version="16.6.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1248" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,7 +28,7 @@
         <mxCell id="UFxITwJpjcm45uS_SykQ-12" value="UClothingSimulationFactoryNv" style="html=1;" vertex="1" parent="UFxITwJpjcm45uS_SykQ-14">
           <mxGeometry x="360" y="250" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UFxITwJpjcm45uS_SykQ-15" value="用于给不同的布料模拟器&lt;br&gt;的创建、销毁以及交互&lt;br&gt;提供一致的接口&lt;br&gt;&lt;br&gt;SkeletalMeshComponent使用&lt;br&gt;这些接口创建不同的布料模拟器&lt;br&gt;&lt;br&gt;实际上有两种布料模拟器，&lt;br&gt;一种是Choas，一种是NvCloth，&lt;br&gt;分别有自己的工厂类" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="UFxITwJpjcm45uS_SykQ-15" value="用于给不同的布料模拟器&lt;br&gt;的创建、销毁以及交互&lt;br&gt;提供一致的接口&lt;br&gt;&lt;br&gt;SkeletalMeshComponent使用&lt;br&gt;这些接口创建不同的布料模拟器&lt;br&gt;&lt;br&gt;实际上有两种布料模拟器，&lt;br&gt;一种是Chaos，一种是NvCloth，&lt;br&gt;分别有自己的工厂类" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="485" y="55" width="190" height="150" as="geometry" />
         </mxCell>
         <mxCell id="UFxITwJpjcm45uS_SykQ-26" value="" style="group;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
