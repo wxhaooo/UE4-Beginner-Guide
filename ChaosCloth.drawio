@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-03T12:33:42.798Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 Edg/98.0.1108.62" etag="_0mfZknJLKd_2twCORQD" version="16.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-03T12:35:41.259Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 Edg/98.0.1108.62" etag="4zK0iNekAMOR_mN9F6rs" version="16.6.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1248" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,8 +34,8 @@
         <mxCell id="UFxITwJpjcm45uS_SykQ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="UFxITwJpjcm45uS_SykQ-20" target="UFxITwJpjcm45uS_SykQ-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UFxITwJpjcm45uS_SykQ-20" value="FClothingSimulationCommon" style="html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="255" y="520" width="200" height="50" as="geometry" />
+        <mxCell id="UFxITwJpjcm45uS_SykQ-20" value="FClothingSimulationCommon&lt;br&gt;&lt;br&gt;提供一个所有模拟器需要的&lt;br&gt;填充模拟环境上下文的方法。&lt;br&gt;" style="html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="227.5" y="510" width="255" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UFxITwJpjcm45uS_SykQ-16" value="«interface»&lt;br&gt;IClothingSimulation&lt;br&gt;&lt;br&gt;这个接口提供了所有布料模拟器需要实现的方法" style="html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="205" y="410" width="300" height="60" as="geometry" />
