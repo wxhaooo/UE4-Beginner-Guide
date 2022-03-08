@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2022-03-08T11:53:33.427Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.30" etag="Qu5Y4SgvByZ08J2gqwLa" version="16.6.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-08T11:54:44.868Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.30" etag="5-PBcdnadfVbxprDr1kJ" version="16.6.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1783" dy="967" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1468" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="UFxITwJpjcm45uS_SykQ-14" value="" style="group;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1" connectable="0">
-          <mxGeometry x="40" y="50" width="630" height="310" as="geometry" />
+          <mxGeometry x="40" y="30" width="650" height="330" as="geometry" />
         </mxCell>
         <mxCell id="UFxITwJpjcm45uS_SykQ-7" value="«interface»&lt;br&gt;&lt;b&gt;UClothingSimulationFactory&lt;/b&gt;" style="html=1;" parent="UFxITwJpjcm45uS_SykQ-14" vertex="1">
-          <mxGeometry x="170" y="110" width="250" height="50" as="geometry" />
+          <mxGeometry x="175.39682539682542" y="117.09677419354838" width="257.93650793650795" height="53.2258064516129" as="geometry" />
         </mxCell>
         <mxCell id="UFxITwJpjcm45uS_SykQ-8" value="«interface»&lt;br&gt;&lt;b&gt;IClothingSimulationFactoryClassProvider&lt;/b&gt;" style="html=1;" parent="UFxITwJpjcm45uS_SykQ-14" vertex="1">
-          <mxGeometry x="155" width="280" height="50" as="geometry" />
+          <mxGeometry x="159.92063492063494" width="288.8888888888889" height="53.2258064516129" as="geometry" />
         </mxCell>
         <mxCell id="UFxITwJpjcm45uS_SykQ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="UFxITwJpjcm45uS_SykQ-14" source="UFxITwJpjcm45uS_SykQ-7" target="UFxITwJpjcm45uS_SykQ-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -20,16 +20,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UFxITwJpjcm45uS_SykQ-10" value="UChaosClothingSimulationFactory" style="html=1;" parent="UFxITwJpjcm45uS_SykQ-14" vertex="1">
-          <mxGeometry y="250" width="250" height="60" as="geometry" />
+          <mxGeometry y="266.1290322580645" width="257.93650793650795" height="63.87096774193548" as="geometry" />
         </mxCell>
         <mxCell id="UFxITwJpjcm45uS_SykQ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="UFxITwJpjcm45uS_SykQ-14" source="UFxITwJpjcm45uS_SykQ-12" target="UFxITwJpjcm45uS_SykQ-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UFxITwJpjcm45uS_SykQ-12" value="UClothingSimulationFactoryNv" style="html=1;" parent="UFxITwJpjcm45uS_SykQ-14" vertex="1">
-          <mxGeometry x="360" y="250" width="270" height="60" as="geometry" />
+          <mxGeometry x="371.42857142857144" y="266.1290322580645" width="278.5714285714286" height="63.87096774193548" as="geometry" />
         </mxCell>
-        <mxCell id="UFxITwJpjcm45uS_SykQ-15" value="用于给不同的布料模拟器&lt;br&gt;的创建、销毁以及交互&lt;br&gt;提供一致的接口&lt;br&gt;&lt;br&gt;SkeletalMeshComponent使用&lt;br&gt;这些接口创建不同的布料模拟器&lt;br&gt;&lt;br&gt;实际上有两种布料模拟器，&lt;br&gt;一种是Chaos，一种是NvCloth，&lt;br&gt;分别有自己的工厂类" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="485" y="55" width="190" height="150" as="geometry" />
+        <mxCell id="UFxITwJpjcm45uS_SykQ-15" value="用于给不同的布料模拟器&lt;br style=&quot;font-size: 14px;&quot;&gt;的创建、销毁以及交互&lt;br style=&quot;font-size: 14px;&quot;&gt;提供一致的接口&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;SkeletalMeshComponent使用&lt;br style=&quot;font-size: 14px;&quot;&gt;这些接口创建不同的布料模拟器&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;实际上有两种布料模拟器，&lt;br style=&quot;font-size: 14px;&quot;&gt;一种是Chaos，一种是NvCloth，&lt;br style=&quot;font-size: 14px;&quot;&gt;分别有自己的工厂类" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="470" y="40" width="220" height="180" as="geometry" />
         </mxCell>
         <mxCell id="UFxITwJpjcm45uS_SykQ-26" value="" style="group;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1" connectable="0">
           <mxGeometry x="60" y="390" width="550" height="260" as="geometry" />
@@ -55,7 +55,7 @@
         <mxCell id="UFxITwJpjcm45uS_SykQ-23" value="FClothingSimulationNv&lt;br&gt;&lt;br&gt;使用nvCloth的布料模拟器的实现类" style="html=1;" parent="UFxITwJpjcm45uS_SykQ-26" vertex="1">
           <mxGeometry x="330" y="210" width="220" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="OkXZC-aaNVTLVCNhO-GQ-18" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;" style="group;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="OkXZC-aaNVTLVCNhO-GQ-18" value="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;" style="group;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="710" y="50" width="590" height="330" as="geometry" />
         </mxCell>
         <mxCell id="OkXZC-aaNVTLVCNhO-GQ-2" value="ExecuteTick" style="html=1;" vertex="1" parent="OkXZC-aaNVTLVCNhO-GQ-18">
@@ -90,6 +90,9 @@
         </mxCell>
         <mxCell id="OkXZC-aaNVTLVCNhO-GQ-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="OkXZC-aaNVTLVCNhO-GQ-18" source="OkXZC-aaNVTLVCNhO-GQ-7" target="OkXZC-aaNVTLVCNhO-GQ-10">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OkXZC-aaNVTLVCNhO-GQ-20" value="Cloth的执行逻辑" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="OkXZC-aaNVTLVCNhO-GQ-18">
+          <mxGeometry x="445" y="284.13" width="130" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
