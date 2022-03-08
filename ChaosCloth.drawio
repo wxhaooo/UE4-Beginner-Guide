@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-08T12:24:04.387Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.30" etag="UgDAOfjKQhIXnqq1FoRK" version="16.6.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-08T12:24:24.843Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.30" etag="PM7lqnaMTyZXQCmMdeTN" version="16.6.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2269" dy="1231" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1560" dy="846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -71,7 +71,7 @@
           <mxGeometry y="80" width="510" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OkXZC-aaNVTLVCNhO-GQ-36" value="" style="group;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="862" y="450" width="756.6666666666667" height="570" as="geometry" />
+          <mxGeometry x="862" y="450" width="756.6666666666667" height="575" as="geometry" />
         </mxCell>
         <mxCell id="OkXZC-aaNVTLVCNhO-GQ-2" value="ExecuteTick" style="html=1;" vertex="1" parent="OkXZC-aaNVTLVCNhO-GQ-36">
           <mxGeometry x="187.72263157894736" width="134.56140350877195" height="71.73913043478261" as="geometry" />
@@ -100,8 +100,8 @@
         <mxCell id="OkXZC-aaNVTLVCNhO-GQ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="OkXZC-aaNVTLVCNhO-GQ-36" source="OkXZC-aaNVTLVCNhO-GQ-5" target="OkXZC-aaNVTLVCNhO-GQ-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OkXZC-aaNVTLVCNhO-GQ-20" value="Clothing的执行在USkeletalMeshComponent中&lt;br&gt;注册为一个TickFunction，TickFunction会由UE的Tick系统调用，&lt;br&gt;从而触发TickClothing继而调用UpdateClothStateAndSimulate创建并分发&lt;br&gt;布料模拟任务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="OkXZC-aaNVTLVCNhO-GQ-36">
-          <mxGeometry x="156.66999999999996" y="490" width="530" height="80" as="geometry" />
+        <mxCell id="OkXZC-aaNVTLVCNhO-GQ-20" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Clothing的执行在USkeletalMeshComponent中&lt;br&gt;注册为一个TickFunction，TickFunction会由UE的Tick系统调用，&lt;br&gt;从而触发TickClothing继而调用UpdateClothStateAndSimulate创建并分发&lt;br&gt;布料模拟任务&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="OkXZC-aaNVTLVCNhO-GQ-36">
+          <mxGeometry x="191.66999999999996" y="485" width="460" height="90" as="geometry" />
         </mxCell>
         <mxCell id="OkXZC-aaNVTLVCNhO-GQ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="OkXZC-aaNVTLVCNhO-GQ-36" source="OkXZC-aaNVTLVCNhO-GQ-2" target="OkXZC-aaNVTLVCNhO-GQ-3">
           <mxGeometry relative="1" as="geometry" />
