@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-08T13:53:56.638Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.30" etag="zBeVwagZnVtJA6pMbMXY" version="16.6.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-08T13:58:24.443Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.30" etag="A7q5YhslPu7HH0LltRDr" version="16.6.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1314" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -69,8 +69,8 @@
         <mxCell id="l6RxTvnX577dRbKCvcGJ-26" value="TArrayCollectionArray" style="html=1;fontStyle=1" vertex="1" parent="l6RxTvnX577dRbKCvcGJ-31">
           <mxGeometry x="180" y="111" width="161" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="l6RxTvnX577dRbKCvcGJ-30" value="&lt;b&gt;TArrayCollectionArray继承自TArray，本质上还是一个TArray。&lt;br&gt;不过存放的元素一般为所谓的TArrayCollection，也即Array的集合。&lt;br&gt;同时TArrayCollectionArray也实现了TArrayCollectionArrayBase&lt;br&gt;规定的接口，这些接口对于在ArrayCollection上操作很有用&lt;br&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="l6RxTvnX577dRbKCvcGJ-31">
-          <mxGeometry x="70.5" y="190" width="380" height="60" as="geometry" />
+        <mxCell id="l6RxTvnX577dRbKCvcGJ-30" value="&lt;b&gt;TArrayCollectionArray继承自TArray，本质上还是一个TArray。&lt;br&gt;同时TArrayCollectionArray也实现了TArrayCollectionArrayBase&lt;br&gt;规定的接口，因此新的Array具备了ArrayCollection需要的功能，所以&lt;br&gt;叫做TArrayCollectionArray&lt;br&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="l6RxTvnX577dRbKCvcGJ-31">
+          <mxGeometry x="65.5" y="190" width="390" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
