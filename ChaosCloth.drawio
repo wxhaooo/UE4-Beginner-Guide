@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-03-08T12:06:16.815Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.30" etag="9g_MGSOYnXqSlWsgNf8S" version="16.6.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-08T12:23:01.489Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.30" etag="2grnyk-rbc5vg22aWX-A" version="16.6.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1560" dy="846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1920" dy="1042" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="UFxITwJpjcm45uS_SykQ-14" value="" style="group;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1" connectable="0">
-          <mxGeometry x="746.67" y="570" width="653.3299999999999" height="330" as="geometry" />
+          <mxGeometry x="740" y="870" width="653.3299999999999" height="330" as="geometry" />
         </mxCell>
         <mxCell id="UFxITwJpjcm45uS_SykQ-7" value="«interface»&lt;br&gt;&lt;b&gt;UClothingSimulationFactory&lt;/b&gt;" style="html=1;" parent="UFxITwJpjcm45uS_SykQ-14" vertex="1">
           <mxGeometry x="175.39682539682542" y="117.09677419354838" width="257.93650793650795" height="53.2258064516129" as="geometry" />
@@ -55,45 +55,6 @@
         <mxCell id="UFxITwJpjcm45uS_SykQ-23" value="FClothingSimulationNv&lt;br&gt;&lt;br&gt;使用nvCloth的布料模拟器的实现类" style="html=1;" parent="UFxITwJpjcm45uS_SykQ-26" vertex="1">
           <mxGeometry x="330" y="210" width="220" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="OkXZC-aaNVTLVCNhO-GQ-22" value="" style="group;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="760" y="60" width="590" height="445" as="geometry" />
-        </mxCell>
-        <mxCell id="OkXZC-aaNVTLVCNhO-GQ-2" value="ExecuteTick" style="html=1;" vertex="1" parent="OkXZC-aaNVTLVCNhO-GQ-22">
-          <mxGeometry x="31.0526315789474" width="134.56140350877195" height="71.73913043478261" as="geometry" />
-        </mxCell>
-        <mxCell id="OkXZC-aaNVTLVCNhO-GQ-3" value="TickClothing" style="html=1;" vertex="1" parent="OkXZC-aaNVTLVCNhO-GQ-22">
-          <mxGeometry x="31.0526315789474" y="129.1304347826087" width="134.56140350877195" height="71.73913043478261" as="geometry" />
-        </mxCell>
-        <mxCell id="OkXZC-aaNVTLVCNhO-GQ-5" value="UpdateClothStateAndSimulate" style="html=1;" vertex="1" parent="OkXZC-aaNVTLVCNhO-GQ-22">
-          <mxGeometry y="258.2608695652174" width="196.66666666666669" height="71.73913043478261" as="geometry" />
-        </mxCell>
-        <mxCell id="OkXZC-aaNVTLVCNhO-GQ-7" value="&lt;b&gt;FSkeletalMeshComponentClothTickFunction&lt;/b&gt;" style="html=1;" vertex="1" parent="OkXZC-aaNVTLVCNhO-GQ-22">
-          <mxGeometry x="289.8245614035088" width="300.17543859649123" height="71.73913043478261" as="geometry" />
-        </mxCell>
-        <mxCell id="OkXZC-aaNVTLVCNhO-GQ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="OkXZC-aaNVTLVCNhO-GQ-22" source="OkXZC-aaNVTLVCNhO-GQ-2" target="OkXZC-aaNVTLVCNhO-GQ-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="OkXZC-aaNVTLVCNhO-GQ-10" value="&lt;b&gt;USkeletalMeshComponent&lt;/b&gt;" style="html=1;" vertex="1" parent="OkXZC-aaNVTLVCNhO-GQ-22">
-          <mxGeometry x="336.40350877192986" y="129.1304347826087" width="207.01754385964915" height="71.73913043478261" as="geometry" />
-        </mxCell>
-        <mxCell id="OkXZC-aaNVTLVCNhO-GQ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="OkXZC-aaNVTLVCNhO-GQ-22" source="OkXZC-aaNVTLVCNhO-GQ-3" target="OkXZC-aaNVTLVCNhO-GQ-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="OkXZC-aaNVTLVCNhO-GQ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="OkXZC-aaNVTLVCNhO-GQ-22" source="OkXZC-aaNVTLVCNhO-GQ-5" target="OkXZC-aaNVTLVCNhO-GQ-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="OkXZC-aaNVTLVCNhO-GQ-20" value="Clothing的执行在USkeletalMeshComponent中&lt;br&gt;注册为一个TickFunction，TickFunction会由UE的Tick系统调用，&lt;br&gt;从而触发TickClothing继而调用UpdateClothStateAndSimulate创建并分发&lt;br&gt;布料模拟任务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="OkXZC-aaNVTLVCNhO-GQ-22">
-          <mxGeometry x="31.049999999999955" y="365" width="530" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="OkXZC-aaNVTLVCNhO-GQ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="OkXZC-aaNVTLVCNhO-GQ-22" source="OkXZC-aaNVTLVCNhO-GQ-2" target="OkXZC-aaNVTLVCNhO-GQ-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="OkXZC-aaNVTLVCNhO-GQ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="OkXZC-aaNVTLVCNhO-GQ-22" source="OkXZC-aaNVTLVCNhO-GQ-3" target="OkXZC-aaNVTLVCNhO-GQ-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="OkXZC-aaNVTLVCNhO-GQ-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="OkXZC-aaNVTLVCNhO-GQ-22" source="OkXZC-aaNVTLVCNhO-GQ-7" target="OkXZC-aaNVTLVCNhO-GQ-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="OkXZC-aaNVTLVCNhO-GQ-28" value="" style="group;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="180" y="190" width="510" height="140" as="geometry" />
         </mxCell>
@@ -108,6 +69,57 @@
         </mxCell>
         <mxCell id="OkXZC-aaNVTLVCNhO-GQ-27" value="Clothing的注册在USkeletalMeshComponent的OnRegister中完成，&lt;br&gt;在这里会检查ClothingSimulationFactory是否创建并且支持所有ClothingAssets并&lt;br&gt;重新创建模拟需要的上下文和ClothingActors&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="OkXZC-aaNVTLVCNhO-GQ-28">
           <mxGeometry y="80" width="510" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OkXZC-aaNVTLVCNhO-GQ-36" value="" style="group;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="740" y="60" width="756.6666666666667" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="OkXZC-aaNVTLVCNhO-GQ-2" value="ExecuteTick" style="html=1;" vertex="1" parent="OkXZC-aaNVTLVCNhO-GQ-36">
+          <mxGeometry x="187.72263157894736" width="134.56140350877195" height="71.73913043478261" as="geometry" />
+        </mxCell>
+        <mxCell id="OkXZC-aaNVTLVCNhO-GQ-3" value="TickClothing" style="html=1;" vertex="1" parent="OkXZC-aaNVTLVCNhO-GQ-36">
+          <mxGeometry x="187.72263157894736" y="129.1304347826087" width="134.56140350877195" height="71.73913043478261" as="geometry" />
+        </mxCell>
+        <mxCell id="OkXZC-aaNVTLVCNhO-GQ-5" value="UpdateClothStateAndSimulate" style="html=1;" vertex="1" parent="OkXZC-aaNVTLVCNhO-GQ-36">
+          <mxGeometry x="156.66999999999996" y="258.2608695652174" width="196.66666666666669" height="71.73913043478261" as="geometry" />
+        </mxCell>
+        <mxCell id="OkXZC-aaNVTLVCNhO-GQ-7" value="&lt;b&gt;FSkeletalMeshComponentClothTickFunction&lt;/b&gt;" style="html=1;" vertex="1" parent="OkXZC-aaNVTLVCNhO-GQ-36">
+          <mxGeometry x="446.4945614035089" width="300.17543859649123" height="71.73913043478261" as="geometry" />
+        </mxCell>
+        <mxCell id="OkXZC-aaNVTLVCNhO-GQ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="OkXZC-aaNVTLVCNhO-GQ-36" source="OkXZC-aaNVTLVCNhO-GQ-2" target="OkXZC-aaNVTLVCNhO-GQ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OkXZC-aaNVTLVCNhO-GQ-10" value="&lt;b&gt;USkeletalMeshComponent&lt;/b&gt;" style="html=1;" vertex="1" parent="OkXZC-aaNVTLVCNhO-GQ-36">
+          <mxGeometry x="493.07350877192994" y="130.0004347826087" width="207.01754385964915" height="71.73913043478261" as="geometry" />
+        </mxCell>
+        <mxCell id="OkXZC-aaNVTLVCNhO-GQ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="OkXZC-aaNVTLVCNhO-GQ-36" source="OkXZC-aaNVTLVCNhO-GQ-3" target="OkXZC-aaNVTLVCNhO-GQ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OkXZC-aaNVTLVCNhO-GQ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="OkXZC-aaNVTLVCNhO-GQ-36" source="OkXZC-aaNVTLVCNhO-GQ-5" target="OkXZC-aaNVTLVCNhO-GQ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OkXZC-aaNVTLVCNhO-GQ-20" value="Clothing的执行在USkeletalMeshComponent中&lt;br&gt;注册为一个TickFunction，TickFunction会由UE的Tick系统调用，&lt;br&gt;从而触发TickClothing继而调用UpdateClothStateAndSimulate创建并分发&lt;br&gt;布料模拟任务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="OkXZC-aaNVTLVCNhO-GQ-36">
+          <mxGeometry x="156.66999999999996" y="490" width="530" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OkXZC-aaNVTLVCNhO-GQ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="OkXZC-aaNVTLVCNhO-GQ-36" source="OkXZC-aaNVTLVCNhO-GQ-2" target="OkXZC-aaNVTLVCNhO-GQ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OkXZC-aaNVTLVCNhO-GQ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="OkXZC-aaNVTLVCNhO-GQ-36" source="OkXZC-aaNVTLVCNhO-GQ-3" target="OkXZC-aaNVTLVCNhO-GQ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OkXZC-aaNVTLVCNhO-GQ-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="OkXZC-aaNVTLVCNhO-GQ-36" source="OkXZC-aaNVTLVCNhO-GQ-7" target="OkXZC-aaNVTLVCNhO-GQ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OkXZC-aaNVTLVCNhO-GQ-32" value="&amp;nbsp;TGraphTask&amp;lt;FParallelClothTask&amp;gt;::CreateTask(...)ConstructAndDispatchWhenReady.(...)" style="html=1;" vertex="1" parent="OkXZC-aaNVTLVCNhO-GQ-36">
+          <mxGeometry y="390" width="510" height="71.74" as="geometry" />
+        </mxCell>
+        <mxCell id="OkXZC-aaNVTLVCNhO-GQ-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="OkXZC-aaNVTLVCNhO-GQ-36" source="OkXZC-aaNVTLVCNhO-GQ-5" target="OkXZC-aaNVTLVCNhO-GQ-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OkXZC-aaNVTLVCNhO-GQ-34" value="&lt;b&gt;FParallelClothTask&lt;/b&gt;" style="html=1;" vertex="1" parent="OkXZC-aaNVTLVCNhO-GQ-36">
+          <mxGeometry x="560" y="390.0008695652174" width="196.66666666666669" height="71.73913043478261" as="geometry" />
+        </mxCell>
+        <mxCell id="OkXZC-aaNVTLVCNhO-GQ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="OkXZC-aaNVTLVCNhO-GQ-36" source="OkXZC-aaNVTLVCNhO-GQ-32" target="OkXZC-aaNVTLVCNhO-GQ-34">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
