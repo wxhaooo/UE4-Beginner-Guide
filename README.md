@@ -5,19 +5,19 @@
   - [阅读指南](#阅读指南)
     - [Quick Start](#quick-start)
     - [Slow Start](#slow-start)
-    - [Go Deepp](#go-deepp)
+    - [Go Deep](#go-deep)
   - [Foundamentation](#foundamentation)
     - [Blueprint Visual Scripting](#blueprint-visual-scripting)
     - [Coding Standard](#coding-standard)
     - [Project Name Standard](#project-name-standard)
-  - [Gameplay](#gameplay)
+  - [Modules](#modules)
     - [Animation System](#animation-system)
       - [Overview of Animation System](#overview-of-animation-system)
       - [Animation With C++](#animation-with-c)
       - [Animation Misc](#animation-misc)
       - [Dive in Animation System](#dive-in-animation-system)
-    - [HUD](#hud)
-    - [AI](#ai)
+    - [Water](#water)
+    - [Rendering](#rendering)
   - [Engine Mechanism](#engine-mechanism)
     - [Extensions to C++](#extensions-to-c)
       - [Delegate](#delegate)
@@ -25,15 +25,13 @@
         - [Why use Delegate?](#why-use-delegate)
         - [Delegate Details](#delegate-details)
       - [Reflection](#reflection)
-      - [Modules](#modules)
+      - [Modules](#modules-1)
       - [Coroutine](#coroutine)
       - [MultiThreads](#multithreads)
       - [Serialization](#serialization)
-    - [Engine Architecture](#engine-architecture)
-  - [Rendering](#rendering)
   - [Project & Courses](#project--courses)
     - [Complete Project](#complete-project)
-    - [Gameplay](#gameplay-1)
+    - [Gameplay](#gameplay)
     - [Character,Camera,Control (3C)](#charactercameracontrol-3c)
     - [User Interface (UI)](#user-interface-ui)
     - [Resources](#resources)
@@ -69,7 +67,7 @@ __在对C++和蓝图均熟悉以后，建议在进入Lua路线。__
  
  **Lua路线**：C++和蓝图都熟悉了，只要了解了Lua语法，上手就是顺其自然而然的事情了~。
  
-### Go Deepp
+### Go Deep
  
 __在完成上面的简单入门/快速入门后，就可以上手项目在项目中学习了，文章中整理了少量特化领域的知识和问题以供参考，也希望负责对应部分的同学可以把自己的经验有时间的时候补充到对应部分:)__
  
@@ -97,7 +95,7 @@ __在完成上面的简单入门/快速入门后，就可以上手项目在项�
 
 __`Be sure to read these two documents before writing C++ code in UE4, this will make your code look more professional and more suitable for multi-person cooperation project`__
 
-## Gameplay
+## Modules
 
 ### Animation System
 
@@ -144,12 +142,16 @@ __`Be sure to read these two documents before writing C++ code in UE4, this will
 * [UE4动画系统更新源码分析](https://zhuanlan.zhihu.com/p/405437842)
 > 详解了UE4动画系统的更新部分是如何运作的
 
+### Water
 
-### HUD
+> Water System Depp Dive](https://www.bilibili.com/video/BV1zb4y1k7jR/?spm_id_from=333.1007.top_right_bar_window_history.content.click&vd_source=d9c3a93d5a5e702ce7969bbab5c01c0f)
 
-### AI
+**这个视频主要介绍了如何使用水系统制作一个场景以及对默认的水材质做了一个简单的介绍。**
 
-wait to add.
+### Rendering
+
+[剖析虚幻渲染体系](https://www.cnblogs.com/timlly/p/13512787.html#%E5%86%85%E5%AE%B9%E7%BA%B2%E7%9B%AE)
+> 这位博主详细剖析了UE渲染部分的方方面面，非常适合对着源码来看。每篇文章都比较长，但是干货很多，耐心看完一定会很有收获:)
 
 ## Engine Mechanism
 
@@ -198,12 +200,6 @@ wait to add.
 #### Serialization
 
 * [Ue4_序列化浅析](https://blog.csdn.net/mohuak/article/details/83027211)
-
-### Engine Architecture
-
-## Rendering
-
-Wait to add.
 
 ## Project & Courses
 
