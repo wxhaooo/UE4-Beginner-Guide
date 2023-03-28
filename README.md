@@ -18,6 +18,9 @@
       - [Dive in Animation System](#dive-in-animation-system)
     - [Water](#water)
     - [Rendering](#rendering)
+      - [Pipeline](#pipeline)
+      - [RDG](#rdg)
+    - [Gameplay](#gameplay)
   - [Engine Mechanism](#engine-mechanism)
     - [Extensions to C++](#extensions-to-c)
       - [Delegate](#delegate)
@@ -29,9 +32,9 @@
       - [Coroutine](#coroutine)
       - [MultiThreads](#multithreads)
       - [Serialization](#serialization)
-  - [Project & Courses](#project--courses)
+  - [Project \& Courses](#project--courses)
     - [Complete Project](#complete-project)
-    - [Gameplay](#gameplay)
+    - [Gameplay](#gameplay-1)
     - [Character,Camera,Control (3C)](#charactercameracontrol-3c)
     - [User Interface (UI)](#user-interface-ui)
     - [Resources](#resources)
@@ -144,14 +147,33 @@ __`Be sure to read these two documents before writing C++ code in UE4, this will
 
 ### Water
 
-> Water System Depp Dive](https://www.bilibili.com/video/BV1zb4y1k7jR/?spm_id_from=333.1007.top_right_bar_window_history.content.click&vd_source=d9c3a93d5a5e702ce7969bbab5c01c0f)
+> [Water System Depp Dive](https://www.bilibili.com/video/BV1zb4y1k7jR/?spm_id_from=333.1007.top_right_bar_window_history.content.click&vd_source=d9c3a93d5a5e702ce7969bbab5c01c0f)
 
 **这个视频主要介绍了如何使用水系统制作一个场景以及对默认的水材质做了一个简单的介绍。**
 
 ### Rendering
 
+#### Pipeline
+
+[实时渲染深入探究](https://www.bilibili.com/video/BV1h54y1J7SR/?spm_id_from=333.1007.top_right_bar_window_custom_collection.content.click&vd_source=d9c3a93d5a5e702ce7969bbab5c01c0f)
+> 官方对渲染体系的一个系统介绍，虽然标题是深入探究，但非常适合有不算太多渲染经验的同学入门UE渲染体系。
+
 [剖析虚幻渲染体系](https://www.cnblogs.com/timlly/p/13512787.html#%E5%86%85%E5%AE%B9%E7%BA%B2%E7%9B%AE)
 > 这位博主详细剖析了UE渲染部分的方方面面，非常适合对着源码来看。每篇文章都比较长，但是干货很多，耐心看完一定会很有收获:)
+
+[Unreal Engine 4 Rendering](https://medium.com/@lordned/unreal-engine-4-rendering-overview-part-1-c47f2da65346)
+> 一个剖析UE渲染管线的系列文章，包含shader和顶点工厂（Vertex Factories），Drawing Policies，Shader架构以及增加shading model的教程。
+
+
+#### RDG
+
+[Rendering Dependency Graph解析](https://www.bilibili.com/video/BV18K411Z7Jg/?spm_id_from=333.1007.top_right_bar_window_custom_collection.content.click&vd_source=d9c3a93d5a5e702ce7969bbab5c01c0f)
+> 官方对RDG流程的分析，适合对RDG有一定使用经验后去进一步的学习RDG的实现。
+
+### Gameplay
+
+[游戏中QTE和断肢是如何实现的？](https://www.bilibili.com/video/BV1jm4y1k7KK/?spm_id_from=333.999.0.0&vd_source=d9c3a93d5a5e702ce7969bbab5c01c0f)
+> 对游戏中QTE实现的简单介绍，可以学到制作思路，细节还需要琢磨下。
 
 ## Engine Mechanism
 
