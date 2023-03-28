@@ -162,7 +162,10 @@ __`Be sure to read these two documents before writing C++ code in UE4, this will
 > 这位博主详细剖析了UE渲染部分的方方面面，非常适合对着源码来看。每篇文章都比较长，但是干货很多，耐心看完一定会很有收获:)
 
 [Unreal Engine 4 Rendering](https://medium.com/@lordned/unreal-engine-4-rendering-overview-part-1-c47f2da65346)
-> 一个剖析UE渲染管线的系列文章，包含shader和顶点工厂（Vertex Factories），Drawing Policies，Shader架构以及增加shading model的教程。
+> 一个剖析UE渲染管线的系列文章，包含shader和顶点工厂（Vertex Factories），Drawing Policies，Shader架构以及增加shading model的教程。**这个系列相对比较旧，Draw Policies在UE4.22后已经被废弃，参考的时候注意一下。**
+
+[UE4网格渲染管线重构](https://www.bilibili.com/video/BV1gJ411J7j1/?spm_id_from=333.1007.top_right_bar_window_custom_collection.content.click&vd_source=d9c3a93d5a5e702ce7969bbab5c01c0f)
+> UE渲染管线重构的官方介绍，适合深入学习渲染管线的时候参照。
 
 
 #### RDG
